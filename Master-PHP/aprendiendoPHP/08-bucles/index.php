@@ -6,7 +6,8 @@
 while(condicion){
     bloque de instrucciones
 }
-
+//Recordar que el metodo $_GET se puede pedir en la URL del navegador.
+?variable=y el numero que queramos pasar en el GET.
 */
 $numero=0;
 while($numero <= 100){

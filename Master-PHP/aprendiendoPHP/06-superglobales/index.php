@@ -1,5 +1,5 @@
 <?php
-//variables de servidor}
+//variables de servidor
 echo '<h1>';
 echo $_SERVER['SERVER_NAME'];
 echo'</h1>';
