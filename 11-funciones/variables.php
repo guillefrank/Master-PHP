@@ -16,9 +16,22 @@ function holaMundo(){
     echo"<h1>$year</h1>";
     return $year;
 }
-
-
 holaMundo();
 
+//Funciones Variables
+
+function buenosDias(){
+    return "Hola! Buenos Dias :)";
+}
+function buenasTardes(){
+    return "Hey! Que tal ha ido la comida?";
+}
+function buenasNoches(){
+    return "¿Te vas a dorir ya? Buenas noches!";
+}
+$horario="Noches";
+$miFuncion="Buenas ".$horario;
+
+echo $miFuncion;
 
 ?>
